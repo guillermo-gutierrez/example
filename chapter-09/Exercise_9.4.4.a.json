@@ -1,0 +1,10 @@
+{
+    "source": [
+        "aws.opsworks"
+    ],
+    "detail": {
+        "initiated_by": [
+            "auto-healing"
+        ]
+    }
+}

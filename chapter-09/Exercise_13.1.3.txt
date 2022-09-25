@@ -1,0 +1,5 @@
+aws cloudformation package \
+--template-file ./petStoreSAM.yaml \
+--s3-bucket my-bucket-name \
+--output-template-file petStoreSAM-output.yaml \
+--region us-east-1

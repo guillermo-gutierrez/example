@@ -1,0 +1,17 @@
+{
+    "Resources": {
+        "ExampleBucket": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName": "BUCKET_NAME"
+            }
+        }
+    },
+    "Outputs": {
+        "BucketName": {
+            "Value": {
+                "Ref": "ExampleBucket"
+            }
+        }
+    }
+}

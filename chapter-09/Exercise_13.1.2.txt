@@ -1,0 +1,1 @@
+aws s3 cp petstore-api-swagger.yaml s3://my-bucket-name/petstore-api-swagger.yaml
